@@ -1,5 +1,10 @@
 \name{NEWS}
 \title{NEWS file for the owd package}
+\section{Changes in version 1.0.5}{
+  \itemize{
+    \item Made use of the \code{\link{interactive}} function to ensure that examples don't execute during tests.
+  }
+}
 \section{Changes in version 1.0.4}{
   \itemize{
     \item Altered examples to allow for the fact that the '~/Documents' directory may not be present on all Unix systems.

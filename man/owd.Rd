@@ -25,6 +25,7 @@ owd(dir = '.')
   \code{\link{list.files}} for the \emph{contents} of a directory.
 }
 \examples{
+if (interactive()) {
 ## Open current working directory
 owd()
 
@@ -43,6 +44,7 @@ owd('C:/Windows')
 ## Making use of tilde expansion to open My Documents
 #endif
 owd('~')
+}
 }
 \keyword{IO}
 \keyword{file}
